@@ -1,3 +1,7 @@
 # .travis.yml
 
 language: java
+
+script:
+  # 開発時のテスト用シェル
+  - ls -l
